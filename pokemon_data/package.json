@@ -1,0 +1,24 @@
+{
+  "name": "pokemon_data",
+  "version": "1.0.0",
+  "description": "ポケットモンスターの全ポケモンの日本語データです。ご自由にお使いください。",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "format": "prettier --write './data/pokemon_data.json'",
+    "validate": "node validate.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kotofurumiya/pokemon_data.git"
+  },
+  "author": "Koto Furumiya <kotofurumiya@gmail.com>",
+  "bugs": {
+    "url": "https://github.com/kotofurumiya/pokemon_data/issues"
+  },
+  "homepage": "https://github.com/kotofurumiya/pokemon_data#readme",
+  "devDependencies": {
+    "jest": "^24.8.0",
+    "prettier": "^1.17.1"
+  }
+}
